@@ -1,6 +1,6 @@
 {
   "name": "react-native-tesseract-module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tesseract OCR wrapper for React-Native applications",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "tesseract",
     "ocr"
   ],
-  "author": "Jan Maru De Guzman",
+  "author": {
+    "email": "deguzman.maru@gmail.com",
+    "name": "Jan Maru De Guzman"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marungbukid/react-native-tesseract-module/issues"
