@@ -4,6 +4,8 @@ Pod::Spec.new do |s|
   # NPM package specification
   package = JSON.parse(File.read(File.join(File.dirname(__FILE__), "package.json")))
 
+  s.use_modular_headers!
+  
   s.name         = "TesseractModule"
   s.version      = package["version"]
   s.summary      = package["description"]
