@@ -11,11 +11,14 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.Collections;
 import java.util.List;
 
-public class TesserackPackage implements ReactPackage {
+public class TesseractPackage implements ReactPackage {
     @NonNull
     @Override
     public List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactContext) {
-        return Collections.singletonList(new TesseractModule(reactContext));
+        List<NativeModule> modules = new ArrayList<>();
+        modules.add(new TesseractModule(reactContext));
+
+        return modules;
     }
 
     // Deprecated from RN 0.47
