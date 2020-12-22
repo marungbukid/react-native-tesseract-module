@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { package["author"]["name"] => package["author"]["email"] }
   s.platforms    = { :ios => "10.0", :tvos => "10.0" }
   s.source       = { :git => "https://github.com/marungbukid/react-native-tesseract-module", :tag => "#{s.version}" }
-  s.source_files = "ios/**/*.{h,m}"
+  s.source_files = "ios/**/*.{h,m,swift}"
 
   s.dependency "React-Core"
   s.dependency "TesseractOCRiOS"

@@ -1,6 +1,6 @@
 {
   "name": "react-native-tesseract-module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Tesseract OCR wrapper for React-Native applications",
   "main": "index.js",
   "scripts": {
